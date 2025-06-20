@@ -1,0 +1,16 @@
+# Pasta do ambiente virtual
+/venv/
+
+# Pasta do Streamlit
+.streamlit/
+
+# Cache do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos de IDEs e sistema
+.vscode/
+.idea/
+.DS_Store
