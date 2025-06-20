@@ -76,8 +76,6 @@ model = train_model(df_enriquecido)
 explainer = create_explainer(model)
 
 # LÓGICA DA INTERFACE E APLICAÇÃO
-# Mensagem inicial da IA treinada
-st.sidebar.success(f"Modelo 'Especialista' treinado com {len(df_enriquecido)} exemplos!")
 
 # Título e introdução do painel
 st.title("🚨 Red Queen: Painel de Controle de Ameaças Biológicas")
