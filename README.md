@@ -11,6 +11,13 @@ Este projeto simula o painel de controle da "Rainha Vermelha", a inteligência a
 
 Utilizando um modelo de **XGBoost**, o sistema analisa dados de sensores em tempo real para classificar o estado da instalação como "Seguro" ou "Alerta de Anomalia". O grande diferencial do projeto é o uso de **SHAP (SHapley Additive exPlanations)** para fornecer uma análise de causa raiz instantânea, explicando *quais* sensores contribuíram para o alerta. Isso transforma a IA de um simples alarme em uma ferramenta de diagnóstico inteligente.
 
+## 📊 Fonte dos Dados
+
+O conjunto de dados sintéticos utilizado neste projeto foi criado por [Can Özensoy](https://www.kaggle.com/canozensoy) e está disponível publicamente na plataforma Kaggle.
+
+- **Link para o Dataset:** [Red Queen Dataset on Kaggle](https://www.kaggle.com/datasets/canozensoy/red-queen-dataset)
+
+
 ## ✨ Principais Funcionalidades
 
 - **Monitoramento em Tempo Real:** Simula a leitura contínua de sensores ambientais e de segurança.
